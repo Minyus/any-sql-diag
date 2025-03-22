@@ -41,3 +41,19 @@ anysqldiag "SELECT foo FROM (SELECT baz FROM t"
 # specify dialect in lower case
 anysqldiag --dialect spark "SELECT foo FROM (SELECT baz FROM t"
 ```
+
+Output:
+
+```
+[
+  {
+    "description": "Expecting )",
+    "line": 1,
+    "col": 34,
+    "start_context": "SELECT foo FROM (SELECT baz FROM ",
+    "highlight": "t",
+    "end_context": "",
+    "into_expression": null
+  }
+]
+```
