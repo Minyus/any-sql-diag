@@ -27,5 +27,4 @@ def anysqldiag(
     except sqlglot.errors.ParseError as e:
         diagnostics = e.errors
     json_str = json.dumps(diagnostics, indent=json_indent)
-    print(json_str)
-    return diagnostics
+    return json_str

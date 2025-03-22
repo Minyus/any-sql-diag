@@ -1,6 +1,6 @@
 # AnySqlDiag
 
-[![PyPI version](https://badge.fury.io/py/any-sql-diag.svg)](https://badge.fury.io/py/any-sql-diag)
+[![PyPI version](https://badge.fury.io/py/anysqldiag.svg)](https://badge.fury.io/py/anysqldiag)
 
 CLI to diagnose any SQL supported by [sqlglot](https://github.com/tobymao/sqlglot) package:
 
