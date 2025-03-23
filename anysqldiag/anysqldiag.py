@@ -30,6 +30,7 @@ def anysqldiag(
         assert not from_stdin, from_stdin
         assert sql, sql
 
+    dialect = dialect.lower() if dialect else None
     error_level = (
         getattr(sqlglot.ErrorLevel, error_level.upper()) if error_level else None
     )

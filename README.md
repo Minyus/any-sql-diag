@@ -38,7 +38,7 @@ CLI to diagnose any SQL dialects supported by [sqlglot](https://github.com/tobym
 # auto-detect dialect
 anysqldiag "SELECT foo FROM (SELECT baz FROM t"
 
-# specify dialect in lower case
+# specify dialect
 anysqldiag --dialect spark "SELECT foo FROM (SELECT baz FROM t" 
 ```
 
